@@ -1,12 +1,16 @@
 package com.example.taskproject
 
 import android.os.Bundle
+import android.text.SpannableStringBuilder
+import android.text.Spanned
+import android.text.style.ForegroundColorSpan
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.taskproject.databinding.FragmentRegisterBinding
+
 
 class RegisterFragment : Fragment(R.layout.fragment_register) {
 
@@ -27,6 +31,12 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
         }
         val arrayAdapter = ArrayAdapter(requireContext(), R.layout.drop_down_item, countryCodes)
         binding.countryCode.setAdapter(arrayAdapter)
+
+        val span = SpannableStringBuilder(binding.privacy.text)
+        val color = ForegroundColorSpan(resources.getColor(R.color.custom_blue, null))
+        span.setSpan(color,
+            26, binding.privacy.text.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        binding.privacy.text = span
     }
 
 }
