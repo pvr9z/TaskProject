@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TaskProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">Enter password</string>
+    <string name="forgot_password">Forgot your Password</string>
+    <string name="finger_print_text">Login with Touch ID</string>
+    <string name="otp_button_text">Get OTP</string>
+    <string name="morning_button_text">Good Morning</string>
+    <string name="night_button_text">Good Night</string>
+    <string name="files_button_text">Saved Files</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="mail_id">android.studio@android.com</string>
+    <string name="name">Android Studio</string>
+    <string name="home_fragment">Home Screen</string>
+
+    <string-array name="country_codes">
+        <item>+91</item>
+        <item>+01</item>
+        <item>+11</item>
+        <item>+81</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Task/app/src/main/res/drawable/country_code_background.xml" value="0.23802083333333332" />
+        <entry key="..\:/Task/app/src/main/res/drawable/finger_print.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/get_otp_button.xml" value="0.23802083333333332" />
+        <entry key="..\:/Task/app/src/main/res/drawable/get_otp_button_test.xml" value="0.23802083333333332" />
+        <entry key="..\:/Task/app/src/main/res/drawable/ic_privacy_policy.xml" value="0.23802083333333332" />
+        <entry key="..\:/Task/app/src/main/res/drawable/khata_icon.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/low_radius_border.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/mobile_no_background.xml" value="0.23802083333333332" />
+        <entry key="..\:/Task/app/src/main/res/drawable/report_icon.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/rounded_border_edittext.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/setting_icon.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/share_icon.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/simple_line.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/small_add_icon.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/star_icon.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/warning.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/drawable/white_profile_logo.xml" value="0.2421875" />
+        <entry key="..\:/Task/app/src/main/res/layout/activity_main.xml" value="0.11413043478260869" />
+        <entry key="..\:/Task/app/src/main/res/layout/dorp_down_item.xml" value="0.14990942028985507" />
+        <entry key="..\:/Task/app/src/main/res/layout/fragment_home.xml" value="0.1911231884057971" />
+        <entry key="..\:/Task/app/src/main/res/layout/fragment_password.xml" value="0.1911231884057971" />
+        <entry key="..\:/Task/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Task/app/src/main/res/layout/home_header.xml" value="0.6" />
+        <entry key="..\:/Task/app/src/main/res/menu/home_menu.xml" value="0.221875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
