@@ -7,6 +7,8 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.fragment.app.Fragment
 import com.example.taskproject.databinding.FragmentHomeBinding
+import androidx.appcompat.app.AppCompatActivity
+
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
@@ -16,22 +18,23 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentHomeBinding.bind(view)
-        toggle = ActionBarDrawerToggle(requireActivity(), binding.drawerLayout, R.string.open, R.string.close)
-        binding.drawerLayout.addDrawerListener(toggle)
-        toggle.syncState()
-        (activity as MainActivity).supportActionBar?.apply {
-            show()
-            setDisplayHomeAsUpEnabled(true)
+        (activity as AppCompatActivity).apply {
+            setSupportActionBar(binding.toolbar)
             setTitle(R.string.home_fragment)
         }
+        toggle = ActionBarDrawerToggle(requireActivity(), binding.drawerLayout, binding.toolbar,  R.string.open, R.string.close)
+        binding.drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
         getSelectedItem()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (toggle.onOptionsItemSelected(item)) return true
+        if (toggle.onOptionsItemSelected(item)){
+            return true
+        }
         return super.onOptionsItemSelected(item)
     }
-    
+
     private fun getSelectedItem() {
         binding.homeNavigationDrawer.setNavigationItemSelectedListener {
             when(it.itemId) {

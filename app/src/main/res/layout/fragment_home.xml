@@ -6,7 +6,21 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/custom_blue"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/home_fragment"
@@ -50,6 +64,7 @@
             android:id="@+id/morning_image"
             android:layout_width="match_parent"
             android:layout_height="225dp"
+            android:layout_marginTop="?attr/actionBarSize"
             android:background="@drawable/gm_top"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -60,9 +75,8 @@
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:fitsSystemWindows="true"
+        android:layout_marginTop="24dp"
         app:headerLayout="@layout/home_header"
         app:menu="@menu/home_menu" />
-
 
 </androidx.drawerlayout.widget.DrawerLayout>
