@@ -14,6 +14,7 @@
     <string name="mail_id">android.studio@android.com</string>
     <string name="name">Android Studio</string>
     <string name="home_fragment">Home Screen</string>
+    <string name="register">Register</string>
 
     <string-array name="country_codes">
         <item>+91</item>
